@@ -25,43 +25,6 @@ After working through this project, you'll understand:
 
 ---
 
-## 📁 Project Structure
-
-```
-lenet-mnist-cnn/
-├── README.md                    # This file
-├── LICENSE                      # MIT License
-├── requirements.txt             # Python dependencies
-├── .gitignore
-│
-├── src/                         # Source code
-│   ├── __init__.py
-│   ├── load.py                 # LeNet-5 architecture definition
-│   ├── data.py                 # MNIST data loading and splitting
-│   ├── process_data.py         # Data preprocessing methods
-│   ├── train.py                # Model training pipeline
-│   ├── predict.py              # Inference and predictions
-│   └── utils.py                # Utility functions
-│
-├── models/                      # Trained model checkpoints
-│   ├── lenet_normalization.h5
-│   ├── lenet_mean.h5
-│   └── lenet_standardization.h5
-│
-├── notebooks/                   # Jupyter notebooks for exploration
-│   ├── 01_eda_mnist.ipynb       # Exploratory data analysis
-│   ├── 02_preprocessing_comparison.ipynb  # Compare preprocessing methods
-│   ├── 03_training_visualization.ipynb    # Training curves and metrics
-│   └── 04_predictions_examples.ipynb      # Inference examples
-│
-└── results/                     # Training outputs and metrics
-    ├── training_history.csv
-    ├── performance_metrics.json
-    ├── confusion_matrix.png
-    └── predictions.h5
-```
-
----
 
 ## 🧠 LeNet-5 Architecture
 
